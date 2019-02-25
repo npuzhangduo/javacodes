@@ -1,0 +1,16 @@
+# 第十章小结
+java.util包中的ArraryList类表示一个大小可以自动增长的对象列表，它在内部用数组来实现这个列表。可以用ArrayList顺序地保存对象元素，其中元素索引从0开始。
+
+ArrayList是一个泛型类。创建泛型类对象需要指定一种数据类型，例如，ArrayList<String>。
+
+ArrayList可以自己维护大小;可以在任何索引位置插入或删除元素。ArrayList还支持get、set、clear和toString等方法。
+
+可以用contains、indexOf和lastIndexOf方法查找ArrayList中的元素。
+
+可以用for-each循环来遍历ArrayList中的元素。但是在这个过程中不能修改列表的内容。
+
+如果要在ArrayList中保存基本类型的数据，如int或double类型的值，就必须在创建列表对象时使用对应包转类，如Integer和Double。
+
+Comparable接口中定义了可以实现自然排序的compareTo方法。实现了Comparable接口的类可以保存到ArrayList对象中。
+
+你可以在自定义类中通过编写compareTo方法来实现Comparable接口。
